@@ -1,12 +1,10 @@
-import { useEffect } from "react";
 import { Container } from "./styles";
+import { api } from "../../api";
+
+
 
 export function Listas(){
-  useEffect(() => {
-    fetch('https://tiao.supliu.com.br/api/album')
-    .then(response => response.json())
-    .then(data => console.log(data))
-  }, [])
+
   return(
     <Container>
       <table>

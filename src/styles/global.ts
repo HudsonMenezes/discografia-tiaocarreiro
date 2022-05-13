@@ -23,9 +23,8 @@ html{
   }
 }
 
-body{
+body{ // colocar img de fundo
   background: var(--background);
-  /* background-image: url(https://source.unsplash.com/random); */
   -webkit-font-smoothing: antialiased;
 }
 
