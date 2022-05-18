@@ -2,9 +2,19 @@ import styled from "styled-components";
 
 export const Container = styled.div`
    /* color: rgb(98, 98, 98); */
-   background: rgba(255, 255, 255, 0.4);
+   background: rgba(255, 255, 255, 0.6);
     max-width: 62.5rem;
     margin: 0 auto;
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    button{
+      margin: 1rem 2rem 0 2rem;
+      
+    }
+}
 
 p{
     margin: 0 0 0 3rem;
@@ -44,3 +54,5 @@ button:hover {
   background-color: #4ab1ff;
 }
 ` 
+
+
